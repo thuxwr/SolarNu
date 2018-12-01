@@ -1,0 +1,21 @@
+SK needs a minimum for each phase for chi2_spectrum, in order to add additional systematic uncertainty.
+
+This data records all minimum for SK phase1~phase4, at best fit point sin_2_t12 = 0.310, ms12 = 4.8e-5 eV^2.
+This data is calculated using Minimum.C, and change line 190 of chi2SK.C.
+
+For combined SK 1~4, chi2_spec = 66.108;
+
+For SK1, chi2_spec = 19.4752;
+
+For SK2, chi2_spec = 5.27794;
+
+For SK3, chi2_spec = 25.8977;
+
+For SK4, chi2_spec = 13.2868;
+
+SK1+SK2+SK3+SK4 = 63.9376.
+
+It is easy to understand why sum(63.9) is smaller than combined result(66.1).
+
+
+

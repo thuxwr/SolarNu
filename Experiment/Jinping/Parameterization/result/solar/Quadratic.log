@@ -1,0 +1,48 @@
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 c0           3.21000e-01  1.90000e-02     no limits
+     2 c1           0.00000e+00  7.80000e-03     no limits
+     3 c2           0.00000e+00  3.40000e-03     no limits
+ **********
+ **    1 **SET ERRDEF           1
+ **********
+ **********
+ **    2 **MIGRAD
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-04
+ FCN=4333.2 FROM MIGRAD    STATUS=INITIATE       10 CALLS          11 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  c0           3.21000e-01   1.90000e-02   1.90000e-02  -7.70379e+01
+   2  c1           0.00000e+00   7.80000e-03   7.80000e-03   2.73172e+02
+   3  c2           0.00000e+00   3.40000e-03   3.40000e-03  -1.68608e+03
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=4330.82 FROM MIGRAD    STATUS=CONVERGED      62 CALLS          63 TOTAL
+                     EDM=7.73804e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  c0           3.22861e-01   2.29532e-02   6.76149e-04   1.85855e-02
+   2  c1           3.84241e-03   9.00540e-03   1.93830e-04  -1.73540e-01
+   3  c2           3.45771e-03   2.95624e-03   5.99754e-05   2.18907e-01
+ EXTERNAL ERROR MATRIX.    NDIM=  26    NPAR=  3    ERR DEF=1
+  5.268e-04 -2.791e-05 -2.429e-05 
+ -2.791e-05  8.110e-05  1.945e-05 
+ -2.429e-05  1.945e-05  8.739e-06 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3
+        1  0.40314   1.000 -0.135 -0.358
+        2  0.74310  -0.135  1.000  0.731
+        3  0.77611  -0.358  0.731  1.000
+ EXTERNAL ERROR MATRIX.    NDIM=  26    NPAR=  3    ERR DEF=1
+  5.268e-04 -2.791e-05 -2.429e-05 
+ -2.791e-05  8.110e-05  1.945e-05 
+ -2.429e-05  1.945e-05  8.739e-06 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3
+        1  0.40314   1.000 -0.135 -0.358
+        2  0.74310  -0.135  1.000  0.731
+        3  0.77611  -0.358  0.731  1.000

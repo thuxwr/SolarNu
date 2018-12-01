@@ -1,0 +1,16 @@
+Since SK has very poor sensitivity to hep flux, I simply fix it to best fit of combined SK, i.e. 12.3e3 cm^2 sec.
+
+I have tested shape distortion resulted from hep flux, and I found that when hep flux varies between 8e3 and 50e3 cm^2 sec, the total distortion is almost in range [14,20]MeV. Variation in hep flux results in about 0.5% error on Detectable Ratio, while it is too small compared to statistical errors in the corresponding range.
+
+Also, fix hep flux will fix theoretical shape at the same time, making minimization faster.
+
+i.e.
+
+The predicted detectable ratio does not depend on flux. This is very important.
+While again I should emphasize that predicted ratio does depend on phase, since they have different detector response functions.
+
+
+I decide to regard (SK's systematic uncertainty from spectrum) uncorrelated
+with JP. This is incorrect, but now JP's systematic uncertainty has not been
+studied. Since uncertainty from spectrum is not a leading term, this should
+not affect too much.

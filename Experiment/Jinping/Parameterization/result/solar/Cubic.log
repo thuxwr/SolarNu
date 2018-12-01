@@ -1,0 +1,44 @@
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 c0           3.21000e-01  1.90000e-02     no limits
+     2 c1           0.00000e+00  7.80000e-03     no limits
+     3 c2           0.00000e+00  3.40000e-03     no limits
+     4 c3           0.00000e+00  1.00000e-03     no limits
+ **********
+ **    1 **SET ERRDEF           1
+ **********
+ **********
+ **    2 **MIGRAD
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-04
+ FCN=4333.2 FROM MIGRAD    STATUS=INITIATE       14 CALLS          15 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  c0           3.21000e-01   1.90000e-02   1.90000e-02  -7.70379e+01
+   2  c1           0.00000e+00   7.80000e-03   7.80000e-03   2.73172e+02
+   3  c2           0.00000e+00   3.40000e-03   3.40000e-03  -1.68608e+03
+   4  c3           0.00000e+00   1.00000e-03   1.00000e-03   8.72316e+03
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=4330.02 FROM MIGRAD    STATUS=CONVERGED      97 CALLS          98 TOTAL
+                     EDM=9.01979e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  c0           3.37060e-01   2.79781e-02   6.74236e-04  -1.12866e-01
+   2  c1           1.25571e-02   1.33252e-02   1.93101e-04   6.01877e-01
+   3  c2          -6.80710e-04   5.29460e-03   6.01157e-05  -2.11733e+00
+   4  c3          -1.13967e-03   1.25881e-03   1.08918e-05   1.08750e+01
+ EXTERNAL ERROR MATRIX.    NDIM=  26    NPAR=  4    ERR DEF=1
+  7.828e-04  1.356e-04 -9.452e-05 -2.009e-05 
+  1.356e-04  1.776e-04 -2.644e-05 -1.265e-05 
+ -9.452e-05 -2.644e-05  2.803e-05  5.578e-06 
+ -2.009e-05 -1.265e-05  5.578e-06  1.585e-06 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4
+        1  0.65978   1.000  0.364 -0.638 -0.570
+        2  0.89234   0.364  1.000 -0.375 -0.754
+        3  0.93529  -0.638 -0.375  1.000  0.837
+        4  0.96298  -0.570 -0.754  0.837  1.000

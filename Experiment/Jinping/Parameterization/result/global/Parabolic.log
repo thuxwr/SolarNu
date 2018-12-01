@@ -1,0 +1,42 @@
+Pee = c0 + c1*(E-10) + c2*(E-10)^2
+
+
+PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 c0           3.21000e-01  1.90000e-02     no limits
+     2 c1           0.00000e+00  7.80000e-03     no limits
+     3 c2           0.00000e+00  3.40000e-03     no limits
+ **********
+ **    1 **SET ERRDEF           1
+ **********
+ **********
+ **    2 **MIGRAD
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-04
+ FCN=9070.19 FROM MIGRAD    STATUS=INITIATE       10 CALLS          11 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  c0           3.21000e-01   1.90000e-02   1.90000e-02  -2.84747e+02
+   2  c1           0.00000e+00   7.80000e-03   7.80000e-03   7.49310e+02
+   3  c2           0.00000e+00   3.40000e-03   3.40000e-03  -2.77384e+03
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=9060.7 FROM MIGRAD    STATUS=CONVERGED      72 CALLS          73 TOTAL
+                     EDM=2.23538e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  c0           3.65385e-01   2.46592e-02   1.04711e-03  -4.95566e-03
+   2  c1          -7.17436e-03   8.90233e-03   2.89338e-04   2.62721e-02
+   3  c2           1.03094e-03   3.00061e-03   9.15102e-05   1.43600e-01
+ EXTERNAL ERROR MATRIX.    NDIM=  26    NPAR=  3    ERR DEF=1
+  6.081e-04 -3.625e-05 -2.809e-05 
+ -3.625e-05  7.925e-05  1.887e-05 
+ -2.809e-05  1.887e-05  9.004e-06 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3
+        1  0.40654   1.000 -0.165 -0.380
+        2  0.71502  -0.165  1.000  0.706
+        3  0.75496  -0.380  0.706  1.000

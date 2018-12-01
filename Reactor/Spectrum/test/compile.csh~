@@ -1,0 +1,1 @@
+g++ -O2 TestRctSum.C ../RctSum.C ../RctSpec.C ../../../CrossSection/InverseBetaCS.C ../../../Crosssection/NuElasticCS.C -I${EIGEN} -pthread -m64 -I${ROOTSYS}/include -L${ROOTSYS}/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -o RctSum

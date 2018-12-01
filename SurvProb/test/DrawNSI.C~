@@ -1,0 +1,16 @@
+{
+	TFile* file = TFile::Open("NSI.root");
+
+	upNSI->SetLineColor(kViolet);
+	upNSI->SetLineWidth(2);
+	downNSI->SetLineColor(kOrange);
+	downNSI->SetLineWidth(2);
+	MSW->SetLineColor(kBlue);
+	MSW->SetLineWidth(2);
+
+	upNSI->GetXaxis()->SetRangeUser(0.1,14);
+
+	upNSI->Draw("al");
+	downNSI->Draw("lsame");
+	MSW->Draw("lsame");
+}

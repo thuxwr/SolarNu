@@ -1,0 +1,4 @@
+See ProveDegeneracy.pdf and QuasiVac.pdf for some details.
+
+At last I chose to use L_osci > L_sun_earth / 50. to judge whether to calculate average between perihelion and aphelion.
+

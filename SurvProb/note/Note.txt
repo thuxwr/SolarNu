@@ -1,0 +1,39 @@
+About SolarNu Degeneracy when propagating from Sun to Earth.
+
+The degeneracy is caused by the following factors:
+1. Sizable energy bin width for solar neutrino spectra, especialy those with line shapes.
+2. Continuous flux distribution in the Sun.
+3. Average when integrating over Sun-Earth distance.
+
+This note is to explain all these factors, and the parameter space they affect.
+
+Sun-Earth distance is 7.58122e11 MeV/eV^2.
+
+1.
+For different energy, vacuum oscillation holds different oscillation length L = (4*Pi*E)/(\Delta m^2). If in one energy bin(here assuming energy is distributed uniformly in one bin) the oscillation periods are separated by ~10, oscillation will be averaged and neutrinos propagate incoherently.
+Obviously it is more difficult to degenerate with smaller energy bin width and larger energy, so we analyze Be7-862.
+Energy: 0.862 MeV, bin width: 0.0001MeV.
+In order for >50 periods separation, mass splitting should be larger than 3.067e-6 eV^2, under which circumstance degeneracy holds.
+The error for SurvProb calculation brought by this approximation is less than 1%.
+
+2.
+For the sake of convenience, we treat oscillation length in matter the same as that in vacuum. The orders are the same.
+Distribution bin width: 4.1e-3 * SunRadius.
+Since Sun-Earth distance is far longer than this bin width, average for this is totally covered by average effect of Factor.3.
+
+3.
+Distance between perihelion and aphelion is 0.01672 * Sun-Earth-Distance. With higher energy, approximation condition becomes stricter, so we take highest energy(Boron 8) at 15MeV.
+For >50 periods separation, mass splitting should be larger than 7.43525e-7 eV^2. The error is less than 1%.
+
+Factor 1 and Factor 3 will work together, so the actual low bound for degeneracy assumption is lower than 7.43525e-7. In numeric calculation, I decide whether to use this approximation by analyzing Factor 3.
+
+Since the statistical uncertainty for Jinping Neutrino Experiment is more than 1%, precision for this calculation is acceptable.
+
+
+
+If degeneracy condition is satisfied, there is no need to calculate vacuum
+oscillation. Final state vector should return an averaged value.
+
+If degeneracy condition is not satisfied, error from binning of flux
+distribution is negligible, and their contribution should be added together.
+Final state vector should be calculated separatedly.

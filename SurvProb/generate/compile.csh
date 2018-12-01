@@ -1,0 +1,1 @@
+g++ `root-config --cflags` -I/work/wangzhe9_work/usr/include/eigen3 -I/home/dayabay/sw/root/include -L${ROOTSYS}/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d     -lCint -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic DrawProb.C SurvProb.C ../../Earth/Earth.C ../../Oscillation/Osci.C ../../Solar/SolarNu.C -o DrawProb

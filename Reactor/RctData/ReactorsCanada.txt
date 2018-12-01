@@ -1,0 +1,23 @@
+# [Name]                 [Latitude]             [Longitude]           [Power]
+#Power is thermal power in GW
+#This code was written by N. Doustimotlagh ()
+#here is the list of reactors in Canada that are in propertional or under construction
+BRUCE-1                 44.325278              -81.599444             2.575
+BRUCE-2                 44.325278              -81.599444             2.456
+BRUCE-3                 44.325278              -81.599444             2.832
+BRUCE-4                 44.325278              -81.599444             2.832
+BRUCE-5                 44.325278              -81.599444             2.832
+BRUCE-6                 44.325278              -81.599444             2.690
+BRUCE-7                 44.325278              -81.599444             2.832
+BRUCE-8                 44.325278              -81.599444             2.690
+DARLINGTON-1	        43.872778              -78.719722             2.776 
+DARLINGTON-2	        43.872778              -78.719722             2.776
+DARLINGTON-3	        43.872778              -78.719722             2.776
+DARLINGTON-4	        43.872778              -78.719722             2.776
+PICKERING-1             43.811667              -79.065833             1.744
+PICKERING-4             43.811667              -79.065833             1.744
+PICKERING-5             43.811667              -79.065833             1.744
+PICKERING-6             43.811667              -79.065833             1.744
+PICKERING-7             43.811667              -79.065833             1.744 
+PICKERING-8             43.811667              -79.065833             1.744
+POINT_LEPREAU           45.068889              -66.454722             2.18

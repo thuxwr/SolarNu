@@ -1,0 +1,3 @@
+1. Go to "test" dir, and use compile.csh to compile TestRctSum.C.
+2. Run the generated RctSum and generate RctBkgSum.root, where unit reactor IBD/Elas background spectra can be found.
+3. The histogram in there can be used for other studies easily.
